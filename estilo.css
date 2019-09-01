@@ -1,0 +1,278 @@
+
+body{
+    
+    overflow-x: hidden;
+}
+
+#fondo1{
+    background-image: url(imagen/fcolor.jpg);
+    height: 620px;
+}
+
+#logo{
+    margin-bottom: 4px;
+}
+
+#logo1 img{
+    margin-top: 4px;
+
+    width: 150px;
+    height: 100px;
+}
+
+#logo2 img{
+    margin-top: 4px;
+    width: 45px;
+    height: 45px;
+}
+
+#logo2{
+    margin-right: -70px;
+    float: right;
+}
+
+
+#cuerpo1{
+    background-image: url(imagen/fondo.png);
+    height: 440px;
+    width: 950px;
+}
+
+#cuerpo2{
+    width: 325px;
+    height: 270px;
+    margin-left: 10px;
+}
+
+#cuerpo2 form, #cuerpo2 p{
+    width: 240px;
+    margin-left: 20px;
+}
+#cuerpo2 button{
+    margin-left: 45px;
+    background-color: #ffc616;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 1em;
+    font-weight: 700;
+    border: 2px blue solid;
+}
+
+#cuerpo2 button:hover {
+    background-color: red;
+}
+
+#cuerpo2 button {
+    transition: background-color 0.8s linear 0.2s;
+}
+
+#formulario{
+    border: 7px #206bcb groove;
+    background-image: url(imagen/fform.jpg);
+}
+
+#formulario input{
+    background-color: #87cbff;
+    border-color: blue;
+}
+
+body #logo #logo1{
+    font-family: ih;
+    font-size: 3em;
+    color: white;
+}
+
+body #logo #logo2{
+    font-family: ih;
+    font-size: 1.7em;
+    color: black;
+}
+
+body #cuerpo #cuerpo1 #titulo{
+    font-family: kgh;
+    font-size: 2.8em;
+    color: white;
+    margin-left: 350px;
+    margin-top: 70px;
+}
+
+body #cuerpo #cuerpo1 #subtitulo{
+    font-family: ihl;
+    color: white;
+    font-size:2.4em;
+    margin-left: 350px;
+}
+
+#formulario form{
+    font-family: ihl;
+    font-size: 1.3em;
+    color:black;
+}
+
+#formulario p{
+    font-family: ih;
+    font-size: 1.6em;
+    color:black;
+}
+
+#beneficios p{
+    font-family: real;
+    font-size: 1.5em;
+    color:black;
+}
+
+#beneficios ul li{
+    font-family: csr;
+    font-size: 1.5em;
+    color:black;
+}
+
+#beneficios{
+    margin-top: 10px;
+    width: 350px;
+}
+
+#comentarios{
+    background-image: url(imagen/fcomentario.jpg);
+}
+
+#comenta1{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: -70px;
+    width: 340px;
+    height: 400px;
+}
+
+#comenta1 p{
+    font-family: real;
+    font-size: 2em;
+}
+
+#comenta1 #numero{
+    font-size: 1.3em;
+}
+
+#comenta1 textarea{
+    height: 100px;
+    font-family: ktf;
+    font-size: 1.2em;
+}
+
+#boton:hover{
+    background-color: red;
+}
+
+#boton{
+    transition: background-color 0.8s linear 0.2s;
+}
+#comenta2{
+    margin-top: 50px;
+    width: 900px;
+}
+
+#comenta2 div{
+    float: left;
+    margin-left: 15px;
+    font-family: ihl;
+    font-size: 1.4em;
+    height: 230px;
+    width: 250px;
+    word-break: break-all;
+    color :white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#comenta1 input{
+    font-family: ktf;
+    font-size: 1.5em;
+}
+
+#accion2{
+    background-image: url(imagen/faccion2.jpg);
+    height: 200px;
+}
+
+#promo{
+    height: 170px;
+    font-family: csb;
+    font-size: 2em;
+    color: white;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-right: -20px;
+}
+
+#form2{
+    width: 700px;
+    margin-top: 40px;
+}
+
+#formaccion2 input{
+    font-family: ktf;
+    font-size: 2em;
+    height: 40px;
+}
+
+#formaccion2 #nombre2{
+    float: left;
+    width: 250px;
+    margin-right: 20px;    
+}
+
+#formaccion2 #email2{
+    float: left;
+    width: 400px;
+}
+
+#formaccion2 button{
+    float: left;
+    background-color: #ffc616;
+    font-family: ktf;
+    color: black;
+    border: 2px #ffc616 groove;
+    font-size: 2em;
+}
+#formaccion2 button:hover{
+    background-color: red;
+}
+
+#formaccion2 button {
+    transition: background-color 0.8s linear 0.2s;
+}
+
+#contacto{
+    background-image: url(imagen/fcontacto.jpg);
+    color: white;
+    
+}
+
+#cont, #correo, #celular, #lugar{
+    margin-top: 15px;
+}
+
+#correo, #celular, #lugar{
+    margin-right: -10px;
+}
+
+#cont{
+    margin-left: 7px;
+}
+
+#cont1{
+    font-family: kgh;
+    font-size: 2em;
+}
+
+#cont2,#correo,#celular,#lugar{
+    font-family: ihl;
+    font-size: 2em;
+}
+
+#contacto img{
+    width: 40px;
+    height: 40px;
+}

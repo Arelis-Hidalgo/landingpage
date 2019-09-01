@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Titulo de la empresa-->
+        <title>"El Tata"</title>
+        <!--Se adjuntan los archivos necesarios de estilo-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link  href="estilo.css" rel="stylesheet">
+        <!--Esto es para las fuentes que se ocuparon-->
+        <link  href="fuente.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--Aqui se encuentra el logo de la empresa y su red social-->
+        <div id="fondo1">
+        <div id="logo" class="row">
+            <!--Se separaron los elementos con un grid-->
+            <div id="logo1" class="col-sm-8"><img src="imagen/logo.jpg" alt="logo"> Frutos secos "El Tata"</div>
+            <div id="logo2" class="col-sm-4"><img src="imagen/insta.png" alt="instagram"> @frutos_secos_el_tata</div>
+        </div>
+        <!--Aqui se ubica la imagen principal, el primer llamado de accion y los beneficios de los frutos secos-->
+        <div id="cuerpo" class="row">
+            <div id="cuerpo1" class="col-sm-8">
+                <!--De fondo se encuentra la imagen principal y encima esta el titulo y subtitulo-->
+                <div id="titulo">Un exterior saludable comienza en tu interior</div>
+                <div id="subtitulo">Gran variedad de frutos secos a tu disposición</div>
+            </div>
+            <div id="cuerpo2" class="col-sm-4">
+                <!--En este sector se encuentra el primer llamado de acción-->
+                <div id="formulario">
+                    <p>Sé el primero en conocer nuestras ofertas</p>
+                    <!--formulario para el primer llamado de accion-->
+                    <form>
+                        <!--Se pidieron pocos elementos para no aburrir al usuario llenando datos-->
+                        <div class="form-group">
+                            <label for="inputName">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">¡¡Ofertas para mi!!</button>
+                    </form>
+                </div>
+                <!--Abajo del llamado de acción se intenta mostrar razones para que los clientes se contacten-->
+                <div id="beneficios">
+                    <p>¿Por qué frutos secos?</p>
+                    <!--Se agrega una lista no ordenada-->
+                    <ul>
+                        <li>Son fuente de minerales.</li>
+                        <li>Gran aporte vitamínico.</li>
+                        <li>Ricos en grasas saludables.</li>
+                        <li>Aportan proteína vegetal.</li>
+                        <li>Son ricos en fibra.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--caja de comentarios-->
+        <div id="comentarios" class="row">
+            <div id="comenta1" class="col-sm-6">
+                <!--Se pide el nombre y comentario, pero luego en codigo.js se agrega la fecha-->
+                <!--y ya tienen su maximo largo, que es de 200 caracteres-->
+                <p>Déjanos tu comentario...</p>
+                    <div class="form-group">
+                        <input id="nombre" type="text" class="form-control" placeholder="Nombre" maxlength="200">
+                        <div id="lblnombre"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="num" name="num" class="form-control" placeholder="Mi comentario..."  maxlength="200"></textarea>
+                        <div id="lblnum"></div>
+                        <p id="numero">0/200</p>
+                    </div>
+                    <input id="boton" type="button" class="btn btn-primary" value="Enviar mi comentario">
+                
+            </div>   
+            <!--Aqui se ingresan los comentarios-->
+
+            <div id="comenta2" class="col-sm-6">
+                <div id="c1"></div>
+                <div id="c2"></div>
+                <div id="c3"></div>
+            </div>
+        </div>
+        <!--Llamado de accion 2, para los clientes que no fueron convencidos al principio, se inserta oferta para atraerlos-->
+        <div id="accion2" class="row">
+            <div id ="promo" class="col-sm-4">
+                <p >Por tu primera compra, obtén GRATIS un mix 500 grs de 3 frutos secos a tú elección!!</p>
+            </div>
+            <!--formulario para el llamado de accion2 utilizando bootstrap-->
+            <div id ="form2" class="col-sm-8">
+                <form id="formaccion2">
+                    <div id="nombre2" class="form-group">
+                        <input type="text" class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div id="email2" class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <button type="button" class="btn btn-primary">¡¡Contáctenme!!</button>
+                </form>
+            </div>            
+        </div>
+        <!--Finalmente, aqui se encuentran todos los contactos directos actuales-->
+        <div id="contacto" class="row">
+            <!--Separa la fila en 4 columnas del mismo tamaño-->
+            <div id="cont" class="col-sm-3">
+                <p id="cont1">Contacto: <br></p>
+                <p id="cont2">Naldo Hidalgo Araneda</p>
+            </div>
+            <div id="correo" class="col-sm-3">
+                <img src="imagen/email.png" alt="correo">
+                <p>naldohidalgoa@gmail.com</p>
+            </div>
+            <div id="celular" class="col-sm-3">
+                <img src="imagen/wsp.png" alt="celular">
+                <p>+569 92403943</p>
+            </div>
+            <div id="lugar" class="col-sm-3">
+                <img src="imagen/ubicacion.png" alt="ubicacion">
+                <p>Apóstol San Marcos 0380, Temuco.</p>
+            </div>
+        </div>
+        <!--Codigos js necesarios para ejecutar las acciones del bootstrap y funciones propias como las de la caja de comentarios-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="codigo.js"></script>
+    </body>
+</html>

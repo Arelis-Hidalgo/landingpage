@@ -1,0 +1,34 @@
+@font-face{
+    font-family: kgh;
+    src: url(fuente/kgh.ttf);
+}
+
+@font-face{
+    font-family: ih;
+    src: url(fuente/ih.otf);
+}
+
+@font-face{
+    font-family: ihl;
+    src: url(fuente/ihl.otf);
+}
+
+@font-face{
+    font-family: csb;
+    src: url(fuente/csb.ttf);
+}
+
+@font-face{
+    font-family: csr;
+    src: url(fuente/csr.ttf);
+}
+
+@font-face{
+    font-family: real;
+    src: url(fuente/real.otf);
+}
+
+@font-face{
+    font-family: ktf;
+    src: url(fuente/ktf.ttf);
+}
